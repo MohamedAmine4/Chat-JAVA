@@ -9,7 +9,7 @@ import java.net.SocketException;
 import java.util.List;
  
 public class AcceptClient extends Thread {
-    private Socket clientSocket;
+    private Socket clientSocket; 
     private List<PrintWriter> clientWriters;
     private String username;
 
