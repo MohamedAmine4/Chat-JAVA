@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.SocketException;
 import java.util.List;
-
+ 
 public class AcceptClient extends Thread {
     private Socket clientSocket;
     private List<PrintWriter> clientWriters;
